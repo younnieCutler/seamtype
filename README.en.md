@@ -233,6 +233,11 @@ If Seamtype isn't in the input menu, add it in **System Settings → Keyboard �
 Edit… → + → Korean → Seamtype**, and if it isn't listed there, log out and back in once. The pkg
 installs into `/Library/Input Methods` and the other ways into `~/Library/Input Methods`, so use
 only one or you'd get two copies of the input method.
+The installation scripts and pkg stop if a copy is installed in the other location. Uninstall
+the existing copy before switching installation methods.
+
+**Japanese input:** select Seamtype, then turn on **Japanese Input** in its input menu. It is
+off by default. Typing `konnichiha` shows `こんにちは`; Space opens kanji candidates.
 
 **Uninstall:** in the settings window, click **About → Uninstall Seamtype → Uninstall…**. It removes
 Seamtype from both Input Methods folders (macOS asks for your password if you used the pkg) and
